@@ -38,3 +38,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 The following animation shows the web application's appearance and functionality:
 
 ![portfolio demo](./assets/images/demo.gif)
+
+## Deployed application : https://begirlz.github.io/Portfolio/ 

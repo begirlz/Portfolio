@@ -7,10 +7,16 @@ body {
     justify-content: flex-start;
 }
 
+
+/* Set navbar to the right */
+
 nav {
     overflow: hidden;
     float: right;
 }
+
+
+/* Set list items to be in line */
 
 li {
     display: inline-block;
@@ -22,6 +28,9 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/* Making avatar round and center */
 
 .avatar {
     background-image: url("../images/woman.jpg");
@@ -37,12 +46,15 @@ main {
 }
 
 
-/* margin: top right bottom left */
+/* Set the name to be bigger */
 
 h1 {
     font-size: 200%;
     text-align: center;
 }
+
+
+/* Configure About me section */
 
 #aboutme {
     overflow: hidden;
@@ -63,6 +75,9 @@ h1 {
     align-items: center;
 }
 
+
+/* Set contact info at the bottom of the page */
+
 #contact {
     width: 100%;
     text-align: center;
@@ -79,6 +94,9 @@ span {
     font-weight: bold;
     font-size: 150%;
 }
+
+
+/* Configure work section */
 
 .work {
     flex: 4;
@@ -114,13 +132,22 @@ span {
     width: 100%
 }
 
+
+/* set prework application to be larger */
+
 #prework {
     flex: 1 1 800px;
 }
 
+
+/* set all the work section to be smaller */
+
 #work {
     flex: 1 1 500px;
 }
+
+
+/* Responsive view */
 
 @media screen and (max-width: 200px) {
     main,
